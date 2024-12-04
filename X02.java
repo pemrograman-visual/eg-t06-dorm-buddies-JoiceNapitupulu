@@ -44,6 +44,7 @@ public class X02 {
         int h;
 
         for (h = 0; h <= n - 1; h++) {
+            System.out.println(buddy[h]);
         }
     }
 }

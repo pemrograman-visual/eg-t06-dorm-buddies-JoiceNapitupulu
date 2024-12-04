@@ -4,9 +4,9 @@
         <attribute name="name" value="t06"/>
         <attribute name="authors" value="JOICE"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-12-04 04:30:23 PM"/>
+        <attribute name="saved" value="2024-12-04 04:40:31 PM"/>
         <attribute name="created" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMTItMDQ7MDM6NTA6NTIgUE07MjI5Mg=="/>
-        <attribute name="edited" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMTItMDQ7MDQ6MzA6MjMgUE07MjsyMzk4"/>
+        <attribute name="edited" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMTItMDQ7MDQ6NDA6MzEgUE07MzsyMzk5"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -59,7 +59,9 @@
         </parameters>
         <body>
             <declare name="h" type="Integer" array="False" size=""/>
-            <for variable="h" start="0" end="n-1" direction="inc" step="1"/>
+            <for variable="h" start="0" end="n-1" direction="inc" step="1">
+                <output expression="buddy[h]" newline="True"/>
+            </for>
         </body>
     </function>
 </flowgorithm>
